@@ -4,6 +4,7 @@
 
 ## 目录结构
 
+```
 secure/
 ├── alembic/                # 数据库迁移文件
 ├── app/                    # 主应用代码
@@ -16,6 +17,7 @@ secure/
 ├── uploads/               # 图片上传目录
 ├── logs/                  # 日志目录
 └── tests/                 # 测试代码
+```
 
 ## 环境要求
 
@@ -41,7 +43,7 @@ pip install -r requirements.txt
 3. 配置环境变量：
 ```bash
 cp .env.example .env
-# 编辑.env文件，填入必要��配置信息
+# 编辑.env文件，填入必要Key等配置信息
 ```
 
 ## 数据库迁移

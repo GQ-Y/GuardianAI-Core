@@ -7,12 +7,12 @@ api_router = APIRouter()
 api_router.include_router(
     camera.router,
     prefix="/camera",
-    tags=["camera"]
+    tags=["摄像头"]
 )
 
 # 注册工地分组相关路由
 api_router.include_router(
     site.router,
     prefix="/site",
-    tags=["site"]
+    tags=["工程"]
 ) 

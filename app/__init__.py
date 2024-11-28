@@ -10,8 +10,8 @@ def create_app() -> FastAPI:
     """创建FastAPI应用"""
     app = FastAPI(
         title=settings.APP_NAME,
-        description="Construction Site Safety Inspection System",
-        version="1.0.0"
+        description="建筑工地安全监控智能诊断分析系统",
+        version="2.0.0"
     )
     
     # 配置CORS

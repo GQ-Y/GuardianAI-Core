@@ -1,0 +1,1880 @@
+{
+  "version": "1.0",
+  "directories": [
+    {
+      "path": "alembic",
+      "comment": "",
+      "children": [
+        {
+          "path": "alembic/versions",
+          "comment": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "app",
+      "comment": "",
+      "children": [
+        {
+          "path": "app/api",
+          "comment": "",
+          "children": [
+            {
+              "path": "app/api/endpoints",
+              "comment": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "app/models",
+          "comment": "",
+          "children": []
+        },
+        {
+          "path": "app/schemas",
+          "comment": "",
+          "children": []
+        },
+        {
+          "path": "app/services",
+          "comment": "",
+          "children": [
+            {
+              "path": "app/services/ai_clients",
+              "comment": "",
+              "children": []
+            }
+          ]
+        },
+        {
+          "path": "app/utils",
+          "comment": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "logs",
+      "comment": "",
+      "children": []
+    },
+    {
+      "path": "scripts",
+      "comment": "",
+      "children": []
+    },
+    {
+      "path": "uploads",
+      "comment": "",
+      "children": [
+        {
+          "path": "uploads/cam_001",
+          "comment": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "venv",
+      "comment": "",
+      "children": [
+        {
+          "path": "venv/bin",
+          "comment": "",
+          "children": []
+        },
+        {
+          "path": "venv/include",
+          "comment": "",
+          "children": [
+            {
+              "path": "venv/include/site",
+              "comment": "",
+              "children": [
+                {
+                  "path": "venv/include/site/python3.9",
+                  "comment": "",
+                  "children": [
+                    {
+                      "path": "venv/include/site/python3.9/greenlet",
+                      "comment": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "venv/lib",
+          "comment": "",
+          "children": [
+            {
+              "path": "venv/lib/python3.9",
+              "comment": "",
+              "children": [
+                {
+                  "path": "venv/lib/python3.9/site-packages",
+                  "comment": "",
+                  "children": [
+                    {
+                      "path": "venv/lib/python3.9/site-packages/Mako-1.3.6.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/MarkupSafe-3.0.2.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/PIL",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/PyJWT-2.8.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/SQLAlchemy-2.0.36.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/_distutils_hack",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiofiles",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/aiofiles/tempfile",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/aiofiles/threadpool",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiofiles-24.1.0.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/aiofiles-24.1.0.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiohappyeyeballs",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiohappyeyeballs-2.4.3.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiohttp",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/aiohttp/_websocket",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiohttp-3.11.8.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiosignal",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiosignal-1.3.1.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiosqlite",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/aiosqlite/tests",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/aiosqlite-0.20.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/alembic",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/alembic/autogenerate",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/alembic/ddl",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/alembic/operations",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/alembic/runtime",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/alembic/script",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/alembic/templates",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/alembic/templates/async",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/alembic/templates/generic",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/alembic/templates/multidb",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/alembic/testing",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/alembic/testing/plugin",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/alembic/testing/suite",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/alembic/util",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/alembic-1.14.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/annotated_types",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/annotated_types-0.7.0.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/annotated_types-0.7.0.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/anyio",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/anyio/_backends",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/anyio/_core",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/anyio/abc",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/anyio/streams",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/anyio-4.6.2.post1.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/async_timeout",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/async_timeout-5.0.1.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/attr",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/attrs",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/attrs-24.2.0.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/attrs-24.2.0.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/cachetools",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/cachetools-5.5.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/certifi",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/certifi-2024.8.30.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/click",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/click-8.1.7.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/distro",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/distro-1.9.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/dotenv",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/exceptiongroup",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/exceptiongroup-1.2.2.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/fastapi",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/fastapi/dependencies",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/fastapi/middleware",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/fastapi/openapi",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/fastapi/security",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/fastapi-0.115.5.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/fastapi-0.115.5.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/frozenlist",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/frozenlist-1.5.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/greenlet",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/greenlet/platform",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/greenlet/tests",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/greenlet-3.1.1.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/h11",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/h11/tests",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/h11/tests/data",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/h11-0.14.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/httpcore",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/httpcore/_async",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/httpcore/_backends",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/httpcore/_sync",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/httpcore-1.0.7.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/httpcore-1.0.7.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/httpx",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/httpx/_transports",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/httpx-0.27.2.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/httpx-0.27.2.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/idna",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/idna-3.10.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/jiter",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/jiter-0.8.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/jsonschema",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/jsonschema/benchmarks",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/jsonschema/benchmarks/issue232",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/jsonschema/tests",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/jsonschema-4.23.0.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/jsonschema-4.23.0.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/jsonschema_specifications",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/schemas",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/schemas/draft201909",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/schemas/draft201909/vocabularies",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/schemas/draft202012",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/schemas/draft202012/vocabularies",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/schemas/draft3",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/schemas/draft4",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/schemas/draft6",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/schemas/draft7",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/jsonschema_specifications/tests",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/jsonschema_specifications-2024.10.1.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/jsonschema_specifications-2024.10.1.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/jwt",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/mako",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/mako/ext",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/mako/testing",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/markupsafe",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/multidict",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/multidict-6.1.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/multipart",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/openai",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/openai/_extras",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/openai/_utils",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/openai/cli",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/cli/_api",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/cli/_api/chat",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/cli/_tools",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/openai/lib",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/lib/_parsing",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/lib/streaming",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/lib/streaming/chat",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/openai/resources",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/resources/audio",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/resources/beta",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/resources/beta/chat",
+                                  "comment": "",
+                                  "children": []
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/resources/beta/threads",
+                                  "comment": "",
+                                  "children": [
+                                    {
+                                      "path": "venv/lib/python3.9/site-packages/openai/resources/beta/threads/runs",
+                                      "comment": "",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/resources/beta/vector_stores",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/resources/chat",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/resources/fine_tuning",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/resources/fine_tuning/jobs",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/resources/uploads",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/openai/types",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/types/audio",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/types/beta",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/types/beta/chat",
+                                  "comment": "",
+                                  "children": []
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/types/beta/threads",
+                                  "comment": "",
+                                  "children": [
+                                    {
+                                      "path": "venv/lib/python3.9/site-packages/openai/types/beta/threads/runs",
+                                      "comment": "",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/types/beta/vector_stores",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/types/chat",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/types/fine_tuning",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/openai/types/fine_tuning/jobs",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/types/shared",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/types/shared_params",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/openai/types/uploads",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/openai-1.55.2.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/openai-1.55.2.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pillow-11.0.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pip",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pip/_internal",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/cli",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/commands",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/distributions",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/index",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/locations",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/metadata",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/models",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/network",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/operations",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_internal/operations/install",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/req",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/resolution",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_internal/resolution/legacy",
+                                  "comment": "",
+                                  "children": []
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_internal/resolution/resolvelib",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/utils",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_internal/vcs",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pip/_vendor",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/cachecontrol",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/cachecontrol/caches",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/certifi",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/chardet",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/chardet/cli",
+                                  "comment": "",
+                                  "children": []
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/chardet/metadata",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/colorama",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/distlib",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/distlib/_backport",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/html5lib",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/html5lib/_trie",
+                                  "comment": "",
+                                  "children": []
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/html5lib/filters",
+                                  "comment": "",
+                                  "children": []
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treeadapters",
+                                  "comment": "",
+                                  "children": []
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treebuilders",
+                                  "comment": "",
+                                  "children": []
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treewalkers",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/idna",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/msgpack",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/packaging",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/pep517",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/pep517/in_process",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/pkg_resources",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/progress",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/requests",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/resolvelib",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/resolvelib/compat",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/tenacity",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/tomli",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/urllib3",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib",
+                                  "comment": "",
+                                  "children": [
+                                    {
+                                      "path": "venv/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/_securetransport",
+                                      "comment": "",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/urllib3/packages",
+                                  "comment": "",
+                                  "children": [
+                                    {
+                                      "path": "venv/lib/python3.9/site-packages/pip/_vendor/urllib3/packages/backports",
+                                      "comment": "",
+                                      "children": []
+                                    },
+                                    {
+                                      "path": "venv/lib/python3.9/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname",
+                                      "comment": "",
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pip/_vendor/urllib3/util",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pip/_vendor/webencodings",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pip-21.2.4.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pkg_resources",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pkg_resources/_vendor",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pkg_resources/_vendor/packaging",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pkg_resources/extern",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pkg_resources/tests",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/pkg_resources/tests/data",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/pkg_resources/tests/data/my-test-package-source",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/propcache",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/propcache-0.2.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pydantic",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pydantic/_internal",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pydantic/deprecated",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pydantic/experimental",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pydantic/plugin",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pydantic/v1",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pydantic-2.10.2.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pydantic-2.10.2.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pydantic_core",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pydantic_core-2.27.1.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pydantic_core-2.27.1.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pydantic_settings",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/pydantic_settings-2.6.1.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/pydantic_settings-2.6.1.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/python_dotenv-1.0.1.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/python_multipart",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/python_multipart-0.0.17.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/python_multipart-0.0.17.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/referencing",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/referencing/tests",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/referencing-0.35.1.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/referencing-0.35.1.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/rpds",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/rpds_py-0.21.0.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/rpds_py-0.21.0.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/setuptools",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/setuptools/_distutils",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/setuptools/_distutils/command",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/setuptools/_vendor",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/setuptools/_vendor/more_itertools",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/setuptools/_vendor/packaging",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/setuptools/command",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/setuptools/extern",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/setuptools-58.0.4.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/sniffio",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sniffio/_tests",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/sniffio-1.3.1.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/sqlalchemy",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/connectors",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/cyextension",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/dialects",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/dialects/mssql",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/dialects/mysql",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/dialects/oracle",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/dialects/postgresql",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/dialects/sqlite",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/engine",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/event",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/ext",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/ext/asyncio",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/ext/declarative",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/ext/mypy",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/future",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/orm",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/pool",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/sql",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/testing",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/testing/fixtures",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/testing/plugin",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/sqlalchemy/testing/suite",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/sqlalchemy/util",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/starlette",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/starlette/middleware",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/starlette-0.41.3.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/starlette-0.41.3.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/tqdm",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/tqdm/contrib",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/tqdm-4.67.1.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/typing_extensions-4.12.2.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/uvicorn",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/uvicorn/lifespan",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/uvicorn/loops",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/uvicorn/middleware",
+                          "comment": "",
+                          "children": []
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/uvicorn/protocols",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/uvicorn/protocols/http",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/uvicorn/protocols/websockets",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/uvicorn/supervisors",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/uvicorn-0.32.1.dist-info",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/uvicorn-0.32.1.dist-info/licenses",
+                          "comment": "",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/yarl",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/yarl-1.18.0.dist-info",
+                      "comment": "",
+                      "children": []
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/zhipuai",
+                      "comment": "",
+                      "children": [
+                        {
+                          "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/assistant",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/chat",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/fine_tuning",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/fine_tuning/jobs",
+                                  "comment": "",
+                                  "children": []
+                                },
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/fine_tuning/models",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/knowledge",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/knowledge/document",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/tools",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/videos",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/zhipuai/core",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/core/_utils",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "path": "venv/lib/python3.9/site-packages/zhipuai/types",
+                          "comment": "",
+                          "children": [
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/assistant",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/zhipuai/types/assistant/message",
+                                  "comment": "",
+                                  "children": [
+                                    {
+                                      "path": "venv/lib/python3.9/site-packages/zhipuai/types/assistant/message/tools",
+                                      "comment": "",
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/chat",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/zhipuai/types/chat/code_geex",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/files",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/fine_tuning",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/zhipuai/types/fine_tuning/models",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/knowledge",
+                              "comment": "",
+                              "children": [
+                                {
+                                  "path": "venv/lib/python3.9/site-packages/zhipuai/types/knowledge/document",
+                                  "comment": "",
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/sensitive_word_check",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/tools",
+                              "comment": "",
+                              "children": []
+                            },
+                            {
+                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/video",
+                              "comment": "",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "path": "venv/lib/python3.9/site-packages/zhipuai-2.1.5.20230904.dist-info",
+                      "comment": "",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

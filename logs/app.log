@@ -1,0 +1,27 @@
+2024-11-28 16:55:07,588 - app - INFO - Loaded 10 scenes
+2024-11-28 16:55:07,588 - app - INFO - Validating scene: dust_control - 粉尘控制
+2024-11-28 16:55:07,588 - app - ERROR - Scene validation failed: Scene dust_control has invalid risk level
+2024-11-28 16:55:07,588 - app - ERROR - Scene validation failed, aborting initialization
+2024-11-28 17:02:45,148 - app - INFO - Loaded 10 scenes
+2024-11-28 17:02:45,149 - app - INFO - Validating scene: dust_control - 粉尘控制
+2024-11-28 17:02:45,149 - app - ERROR - Scene validation failed: Scene dust_control has invalid risk level
+2024-11-28 17:02:45,149 - app - ERROR - Scene validation failed, aborting initialization
+2024-11-28 17:04:36,660 - app - INFO - Loaded 10 scenes
+2024-11-28 17:04:36,660 - app - INFO - Validating scene: dust_control - 粉尘控制
+2024-11-28 17:04:36,660 - app - ERROR - Scene validation failed: Scene dust_control has invalid risk level
+2024-11-28 17:04:36,660 - app - ERROR - Scene validation failed, aborting initialization
+2024-11-28 17:05:47,792 - app - INFO - Loaded 10 scenes
+2024-11-28 17:05:47,792 - app - INFO - Validating scene: dust_control - 粉尘控制
+2024-11-28 17:05:47,792 - app - ERROR - Scene validation failed: Scene dust_control has invalid risk level
+2024-11-28 17:05:47,792 - app - ERROR - Scene validation failed, aborting initialization
+2024-11-28 17:07:48,395 - app - INFO - Loaded 10 scenes
+2024-11-28 17:07:48,395 - app - INFO - Validating scene: dust_control - 粉尘控制
+2024-11-28 17:07:48,395 - app - ERROR - Scene validation failed: Scene dust_control has invalid risk level
+2024-11-28 17:07:48,395 - app - ERROR - Scene validation failed, aborting initialization
+2024-11-28 17:08:49,229 - app - INFO - Loaded 10 scenes
+2024-11-28 17:08:49,229 - app - INFO - Validating scene: dust_control - 粉尘控制
+2024-11-28 17:08:49,230 - app - ERROR - Scene validation failed: Scene dust_control has invalid risk level
+2024-11-28 17:08:49,230 - app - ERROR - Scene validation failed, aborting initialization
+2024-11-28 17:10:03,307 - app - INFO - Loaded 10 scenes
+2024-11-28 17:10:03,307 - app - INFO - Validating scene: dust_control - 粉尘控制
+2024-11-28 17:10:03,308 - app - ERROR - Scene validation failed: Scene dust_control has invalid risk level

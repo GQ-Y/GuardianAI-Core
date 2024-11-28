@@ -1,0 +1,62 @@
+{
+    "construction_scenes": [
+        {
+            "id": "excavation_edge_protection",
+            "name": "基坑临边防护",
+            "keywords": [
+                "基坑", "临边", "防护栏", "围挡", "警示带"
+            ],
+            "conditions": [
+                {
+                    "type": "防护设施",
+                    "items": [
+                        "防护栏杆",
+                        "警示标志",
+                        "围挡设施",
+                        "安全网"
+                    ]
+                },
+                {
+                    "type": "作业环境",
+                    "items": [
+                        "照明条件",
+                        "积水情况",
+                        "地面状况"
+                    ]
+                }
+            ],
+            "risk_level": "high",
+            "violation_type": "临边防护不到位",
+            "regulations": "《建设工程安全生产管理条例》第二十七条"
+        },
+        {
+            "id": "material_storage",
+            "name": "材料堆放",
+            "keywords": [
+                "材料", "堆放", "码放", "堆垛", "仓储"
+            ],
+            "conditions": [
+                {
+                    "type": "堆放要求",
+                    "items": [
+                        "整齐有序",
+                        "分类存放",
+                        "标识清晰",
+                        "高度限制"
+                    ]
+                },
+                {
+                    "type": "场地条件",
+                    "items": [
+                        "地面平整",
+                        "排水良好",
+                        "通道畅通"
+                    ]
+                }
+            ],
+            "risk_level": "medium",
+            "violation_type": "材料堆放不规范",
+            "regulations": "《建筑施工现场材料堆放安全规范》JGJ52-2006"
+        }
+    ]
+}

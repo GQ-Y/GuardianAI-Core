@@ -35,7 +35,12 @@ source venv/bin/activate  # Linux/Mac
 .\venv\Scripts\activate  # Windows
 ```
 
-2. 安装依赖：
+2. 退出虚拟环境：
+```bash
+deactivate
+```
+
+3. 安装依赖：
 ```bash
 pip install -r requirements.txt
 ```
@@ -68,7 +73,7 @@ alembic downgrade base  # 回滚到初始状态
 
 1. 运行初始化脚本：
 ```bash
-python scripts/init_test_data.py
+python3 scripts/init_db.py
 ```
 
 这将创建：
@@ -79,7 +84,7 @@ python scripts/init_test_data.py
 ## 启动服务
 
 ```bash
-python run.py
+python3 run.py
 ```
 
 服务将在 http://localhost:8000 启动，API文档在 http://localhost:8000/docs

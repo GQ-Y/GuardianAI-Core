@@ -1,10 +1,11 @@
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
+from sqlalchemy import select, delete
 from sqlalchemy.orm import selectinload
 from typing import Optional, List
 import uuid
 
-from ..models.site import Camera
+from ..models.site import Camera, SiteGroup
+from ..models.scene import CameraScene
 from ..models.hazard import Hazard
 from ..schemas import (
     CameraCreate,
@@ -24,15 +25,53 @@ async def get_camera(db: AsyncSession, camera_id: str) -> Optional[Camera]:
     result = await db.execute(stmt)
     return result.scalar_one_or_none()
 
-async def get_camera_hazards(db: AsyncSession, camera_id: str) -> List[Hazard]:
+async def get_camera_hazards(
+    db: AsyncSession,
+    camera_id: str,
+    status: Optional[str] = None
+) -> List[dict]:
     """获取摄像头的隐患记录"""
-    stmt = (
-        select(Hazard)
-        .where(Hazard.camera_id == camera_id)
-        .where(Hazard.status == 'active')
-    )
-    result = await db.execute(stmt)
-    return result.scalars().all()
+    try:
+        # 构建基础查询
+        query = (
+            select(Hazard)
+            .where(Hazard.camera_id == camera_id)
+        )
+        
+        # 如果指定了状态，添加状态筛选
+        if status:
+            query = query.where(Hazard.status == status)
+        else:
+            # 默认只查询活跃隐患
+            query = query.where(Hazard.status == 'active')
+        
+        # 按时间倒序排序
+        query = query.order_by(Hazard.detected_at.desc())
+        
+        result = await db.execute(query)
+        hazards = result.scalars().all()
+        
+        # 手动构建返回数据，避免循环引用
+        hazard_list = []
+        for hazard in hazards:
+            hazard_dict = {
+                "hazard_id": hazard.hazard_id,
+                "camera_id": hazard.camera_id,
+                "scene_id": hazard.scene_id,
+                "violation_type": hazard.violation_type,
+                "risk_level": hazard.risk_level,
+                "status": hazard.status,
+                "location": hazard.location,
+                "detected_at": hazard.detected_at.isoformat() if hazard.detected_at else None,
+                "resolved_at": hazard.resolved_at.isoformat() if hazard.resolved_at else None
+            }
+            hazard_list.append(hazard_dict)
+        
+        return hazard_list
+        
+    except Exception as e:
+        print(f"Error getting hazards: {str(e)}")
+        raise
 
 async def get_camera_status(db: AsyncSession, camera_id: str):
     """获取摄像头状态"""
@@ -40,7 +79,7 @@ async def get_camera_status(db: AsyncSession, camera_id: str):
     if not camera:
         return None
         
-    hazards = await get_camera_hazards(db, camera_id)
+    hazards = await get_camera_hazards(db, camera_id, status='active')
     
     return {
         "camera": {
@@ -140,3 +179,42 @@ async def delete_camera(db: AsyncSession, camera_id: str):
     )
     
     await db.commit() 
+
+async def get_cameras(db: AsyncSession) -> List[dict]:
+    """获取所有摄像头列表"""
+    try:
+        # 查询摄像头及其关联数据
+        stmt = (
+            select(Camera)
+            .options(
+                selectinload(Camera.scenes),
+                selectinload(Camera.hazards)
+            )
+        )
+        
+        result = await db.execute(stmt)
+        cameras = result.scalars().all()
+        
+        # 手动构建返回数据，避免循环引用
+        camera_list = []
+        for camera in cameras:
+            # 获取活跃隐患数量
+            active_hazards = len([h for h in camera.hazards if h.status == 'active'])
+            
+            # 构建返回字典
+            camera_dict = {
+                "camera_id": camera.camera_id,
+                "camera_name": camera.camera_name,
+                "group_id": camera.group_id,
+                "location": camera.location,
+                "status": camera.status,
+                "scenes": [scene.scene_id for scene in camera.scenes],
+                "active_hazards": active_hazards
+            }
+            camera_list.append(camera_dict)
+            
+        return camera_list
+        
+    except Exception as e:
+        print(f"Error getting cameras: {str(e)}")
+        raise 

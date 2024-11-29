@@ -1,3 +1,5 @@
 venv/*
 uploads/*
 
+docker/version.json
+docker/logs/build_logs.txt

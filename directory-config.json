@@ -3,7 +3,7 @@
   "directories": [
     {
       "path": "alembic",
-      "comment": "",
+      "comment": "数据库迁移脚本",
       "children": [
         {
           "path": "alembic/versions",
@@ -22,6 +22,11 @@
           "children": [
             {
               "path": "app/api/endpoints",
+              "comment": "",
+              "children": []
+            },
+            {
+              "path": "app/api/v1",
               "comment": "",
               "children": []
             }
@@ -56,18 +61,29 @@
       ]
     },
     {
-      "path": "logs",
+      "path": "docker",
       "comment": "",
+      "children": [
+        {
+          "path": "docker/logs",
+          "comment": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "logs",
+      "comment": "日志存储区",
       "children": []
     },
     {
       "path": "scripts",
-      "comment": "",
+      "comment": "脚本集合",
       "children": []
     },
     {
       "path": "uploads",
-      "comment": "",
+      "comment": "上传文件存储",
       "children": [
         {
           "path": "uploads/cam_001",
@@ -78,7 +94,7 @@
     },
     {
       "path": "venv",
-      "comment": "",
+      "comment": "虚拟环境根目录",
       "children": [
         {
           "path": "venv/bin",
@@ -132,11 +148,6 @@
                     },
                     {
                       "path": "venv/lib/python3.9/site-packages/PIL",
-                      "comment": "",
-                      "children": []
-                    },
-                    {
-                      "path": "venv/lib/python3.9/site-packages/PyJWT-2.8.0.dist-info",
                       "comment": "",
                       "children": []
                     },
@@ -384,16 +395,6 @@
                           "children": []
                         }
                       ]
-                    },
-                    {
-                      "path": "venv/lib/python3.9/site-packages/cachetools",
-                      "comment": "",
-                      "children": []
-                    },
-                    {
-                      "path": "venv/lib/python3.9/site-packages/cachetools-5.5.0.dist-info",
-                      "comment": "",
-                      "children": []
                     },
                     {
                       "path": "venv/lib/python3.9/site-packages/certifi",
@@ -706,11 +707,6 @@
                           "children": []
                         }
                       ]
-                    },
-                    {
-                      "path": "venv/lib/python3.9/site-packages/jwt",
-                      "comment": "",
-                      "children": []
                     },
                     {
                       "path": "venv/lib/python3.9/site-packages/mako",
@@ -1714,157 +1710,6 @@
                     },
                     {
                       "path": "venv/lib/python3.9/site-packages/yarl-1.18.0.dist-info",
-                      "comment": "",
-                      "children": []
-                    },
-                    {
-                      "path": "venv/lib/python3.9/site-packages/zhipuai",
-                      "comment": "",
-                      "children": [
-                        {
-                          "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource",
-                          "comment": "",
-                          "children": [
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/assistant",
-                              "comment": "",
-                              "children": []
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/chat",
-                              "comment": "",
-                              "children": []
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/fine_tuning",
-                              "comment": "",
-                              "children": [
-                                {
-                                  "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/fine_tuning/jobs",
-                                  "comment": "",
-                                  "children": []
-                                },
-                                {
-                                  "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/fine_tuning/models",
-                                  "comment": "",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/knowledge",
-                              "comment": "",
-                              "children": [
-                                {
-                                  "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/knowledge/document",
-                                  "comment": "",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/tools",
-                              "comment": "",
-                              "children": []
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/api_resource/videos",
-                              "comment": "",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "path": "venv/lib/python3.9/site-packages/zhipuai/core",
-                          "comment": "",
-                          "children": [
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/core/_utils",
-                              "comment": "",
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "path": "venv/lib/python3.9/site-packages/zhipuai/types",
-                          "comment": "",
-                          "children": [
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/assistant",
-                              "comment": "",
-                              "children": [
-                                {
-                                  "path": "venv/lib/python3.9/site-packages/zhipuai/types/assistant/message",
-                                  "comment": "",
-                                  "children": [
-                                    {
-                                      "path": "venv/lib/python3.9/site-packages/zhipuai/types/assistant/message/tools",
-                                      "comment": "",
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/chat",
-                              "comment": "",
-                              "children": [
-                                {
-                                  "path": "venv/lib/python3.9/site-packages/zhipuai/types/chat/code_geex",
-                                  "comment": "",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/files",
-                              "comment": "",
-                              "children": []
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/fine_tuning",
-                              "comment": "",
-                              "children": [
-                                {
-                                  "path": "venv/lib/python3.9/site-packages/zhipuai/types/fine_tuning/models",
-                                  "comment": "",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/knowledge",
-                              "comment": "",
-                              "children": [
-                                {
-                                  "path": "venv/lib/python3.9/site-packages/zhipuai/types/knowledge/document",
-                                  "comment": "",
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/sensitive_word_check",
-                              "comment": "",
-                              "children": []
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/tools",
-                              "comment": "",
-                              "children": []
-                            },
-                            {
-                              "path": "venv/lib/python3.9/site-packages/zhipuai/types/video",
-                              "comment": "",
-                              "children": []
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "path": "venv/lib/python3.9/site-packages/zhipuai-2.1.5.20230904.dist-info",
                       "comment": "",
                       "children": []
                     }

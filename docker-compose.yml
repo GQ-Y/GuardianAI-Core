@@ -12,7 +12,7 @@ services:
       - ./.env:/app/.env
     environment:
       - DEBUG=false
-      - DATABASE_URL=sqlite:///./safety.db
+      - DATABASE_URL=sqlite+aiosqlite:///./safety.db
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/"]

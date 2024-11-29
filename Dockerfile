@@ -16,7 +16,8 @@ RUN apt-get update && apt-get install -y \
 
 # 安装Python依赖
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt \
+    && pip install aiosqlite
 
 # 复制项目文件
 COPY alembic.ini .

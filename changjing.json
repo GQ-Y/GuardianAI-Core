@@ -3,35 +3,181 @@
         {
             "id": "excavation_edge_protection",
             "name": "基坑临边防护",
+            "description": "基坑周边必须设置规范的临边防护设施，确保人员和车辆安全",
             "keywords": [
-                "基坑", "临边", "防护栏", "围挡", "警示带"
+                "基坑", "临边", "防护栏", "围挡", "警示带", "防护网"
             ],
             "conditions": [
                 {
-                    "type": "防护设施",
+                    "type": "防护栏杆",
                     "items": [
-                        "防护栏杆",
-                        "警示标志",
-                        "围挡设施",
-                        "安全网"
+                        "高度要求",
+                        "横杆设置",
+                        "立杆间距",
+                        "连接牢固",
+                        "完整性"
+                    ],
+                    "standards": [
+                        {
+                            "item": "高度要求",
+                            "criteria": "防护栏杆总高度不低于1.2m",
+                            "violation_cases": [
+                                "防护栏杆高度低于1.2m",
+                                "防护栏杆倾斜变形",
+                                "防护栏杆缺失"
+                            ]
+                        },
+                        {
+                            "item": "横杆设置",
+                            "criteria": "必须设置上横杆（1.2m）、中横杆（0.6m）、下横杆（0.2m）",
+                            "violation_cases": [
+                                "横杆数量不足三道",
+                                "横杆间距不均匀",
+                                "横杆松动或缺失"
+                            ]
+                        },
+                        {
+                            "item": "立杆间距",
+                            "criteria": "立杆间距不大于2m，基础稳固",
+                            "violation_cases": [
+                                "立杆间距超过2m",
+                                "立杆基础不稳",
+                                "立杆倾斜变形"
+                            ]
+                        }
                     ]
                 },
                 {
-                    "type": "作业环境",
+                    "type": "警示设施",
                     "items": [
-                        "照明条件",
-                        "积水情况",
-                        "地面状况"
+                        "警示标志",
+                        "警示灯",
+                        "警示带",
+                        "夜间照明"
+                    ],
+                    "standards": [
+                        {
+                            "item": "警示标志",
+                            "criteria": "每20米设置一个警示标志，标志完整清晰",
+                            "violation_cases": [
+                                "警示标志缺失",
+                                "标志破损不清",
+                                "间距过大"
+                            ]
+                        },
+                        {
+                            "item": "夜间警示",
+                            "criteria": "夜间必须设置警示灯和足够照明，照度不低于50勒克斯",
+                            "violation_cases": [
+                                "警示灯缺失",
+                                "照明不足",
+                                "设施损坏"
+                            ]
+                        }
                     ]
                 }
             ],
             "risk_level": "high",
             "violation_type": "临边防护不到位",
-            "regulations": "《建设工程安全生产管理条例》第二十七条"
+            "regulations": {
+                "name": "《建设工程安全生产管理条例》",
+                "clause": "第二十七条",
+                "content": "施工单位必须在施工现场设置安全防护设施，并按照规定在施工现场设置安全警示标志。"
+            },
+            "immediate_actions": [
+                "立即停止临边作业",
+                "设置临时警戒区",
+                "组织人员撤离危险区域"
+            ],
+            "rectification_requirements": {
+                "responsible": "施工单位安全员",
+                "deadline": "立即",
+                "acceptance_criteria": [
+                    "防护栏杆高度达到1.2m",
+                    "三道横杆安装到位且牢固",
+                    "立杆间距不超过2m",
+                    "警示标志和照明设施完善"
+                ]
+            }
+        },
+        {
+            "id": "ppe_violation",
+            "name": "个人防护用品违规",
+            "description": "施工现场所有人员必须正确使用劳动防护用品，严禁违规作业",
+            "keywords": [
+                "安全帽", "反光衣", "安全带", "防护手套", "防护鞋"
+            ],
+            "conditions": [
+                {
+                    "type": "安全帽",
+                    "items": [
+                        "佩戴情况",
+                        "帽带系扣",
+                        "帽体完好",
+                        "佩戴方式"
+                    ],
+                    "standards": [
+                        {
+                            "item": "佩戴要求",
+                            "criteria": "进入施工现场必须佩戴安全帽，帽带系紧，前后方向正确",
+                            "violation_cases": [
+                                "未佩戴安全帽",
+                                "帽带未系",
+                                "帽子歪戴或后戴",
+                                "非标准安全帽"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "反光衣",
+                    "items": [
+                        "穿戴情况",
+                        "反光条",
+                        "尺寸合适",
+                        "整洁完好"
+                    ],
+                    "standards": [
+                        {
+                            "item": "穿戴要求",
+                            "criteria": "施工现场必须穿着反光衣，衣服整洁完好，反光条清晰可见",
+                            "violation_cases": [
+                                "未穿反光衣",
+                                "反光条破损",
+                                "尺寸不合适",
+                                "衣服污损"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "risk_level": "high",
+            "violation_type": "劳动防护用品使用不规范",
+            "regulations": {
+                "name": "《建设工程安全生产管理条例》",
+                "clause": "第三十五条",
+                "content": "施工单位应当为施工现场工作人员提供符合标准的安全防护用具，并监督工作人员正确使用。"
+            },
+            "immediate_actions": [
+                "立即停止违规人员作业",
+                "督促正确使用防护用品",
+                "对违规人员进行教育"
+            ],
+            "rectification_requirements": {
+                "responsible": "班组长",
+                "deadline": "立即",
+                "acceptance_criteria": [
+                    "人员防护用品配备齐全",
+                    "防护用品完好无损",
+                    "正确佩戴和使用",
+                    "人员教育培训完成"
+                ]
+            }
         },
         {
             "id": "material_storage",
             "name": "材料堆放",
+            "description": "施工材料必须按照规范要求进行分类堆放，确保堆放安全和场地通畅",
             "keywords": [
                 "材料", "堆放", "码放", "堆垛", "仓储"
             ],
@@ -39,24 +185,268 @@
                 {
                     "type": "堆放要求",
                     "items": [
-                        "整齐有序",
+                        "堆放高度",
                         "分类存放",
                         "标识清晰",
-                        "高度限制"
+                        "稳固措施"
+                    ],
+                    "standards": [
+                        {
+                            "item": "堆放高度",
+                            "criteria": "砌块类材料堆放高度不超过1.8m，散装材料不超过1.5m",
+                            "violation_cases": [
+                                "堆放超高",
+                                "堆放不稳固",
+                                "无防倾倒措施"
+                            ]
+                        },
+                        {
+                            "item": "分类存放",
+                            "criteria": "不同类型材料应分区存放，并设置明显标识",
+                            "violation_cases": [
+                                "材料混放",
+                                "无标识牌",
+                                "标识不清晰"
+                            ]
+                        }
                     ]
                 },
                 {
-                    "type": "场地条件",
+                    "type": "场地要求",
                     "items": [
                         "地面平整",
                         "排水良好",
-                        "通道畅通"
+                        "通道宽度",
+                        "通行条件"
+                    ],
+                    "standards": [
+                        {
+                            "item": "通道要求",
+                            "criteria": "材料堆放应预留不少于0.8m的人行通道",
+                            "violation_cases": [
+                                "通道被阻",
+                                "通道宽度不足",
+                                "通道被占用"
+                            ]
+                        }
                     ]
                 }
             ],
             "risk_level": "medium",
             "violation_type": "材料堆放不规范",
-            "regulations": "《建筑施工现场材料堆放安全规范》JGJ52-2006"
+            "regulations": {
+                "name": "《建筑施工现场材料堆放安全规范》",
+                "clause": "JGJ52-2006",
+                "content": "施工现场材料、构件、料具等应按照施工现场平面布置图分类、分规格存放整齐。"
+            },
+            "immediate_actions": [
+                "立即清理违规堆放材料",
+                "恢复通道畅通",
+                "设置警示标识"
+            ],
+            "rectification_requirements": {
+                "responsible": "材料员",
+                "deadline": "24小时内",
+                "acceptance_criteria": [
+                    "堆放高度符合规范",
+                    "材料分类存放整齐",
+                    "标识清晰完整",
+                    "通道宽度达标"
+                ]
+            }
+        },
+        {
+            "id": "work_at_height",
+            "name": "高空作业违规",
+            "description": "高空作业必须采取可靠的坠落防护措施，确保作业人员安全",
+            "keywords": [
+                "高空作业", "安全带", "安全绳", "防坠落", "登高"
+            ],
+            "conditions": [
+                {
+                    "type": "防坠设施",
+                    "items": [
+                        "安全带使用",
+                        "系挂点设置",
+                        "防坠器状态",
+                        "安全绳固定"
+                    ],
+                    "standards": [
+                        {
+                            "item": "安全带使用",
+                            "criteria": "2米以上高处作业必须使用符合标准的全身式安全带",
+                            "violation_cases": [
+                                "未使用安全带",
+                                "安全带型号不符",
+                                "系挂不规范"
+                            ]
+                        },
+                        {
+                            "item": "系挂点要求",
+                            "criteria": "系挂点应设置在作业人员上方，且承重能力不小于2300kg",
+                            "violation_cases": [
+                                "系挂点位置过低",
+                                "强度不足",
+                                "固定不牢"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "risk_level": "high",
+            "violation_type": "高处作业防护不达标",
+            "regulations": {
+                "name": "《建筑施工高处作业安全技术规范》",
+                "clause": "JGJ80-2016",
+                "content": "凡在坠落高度基准面2m以上有可能坠落的高处作业，应设置防坠落措施。"
+            },
+            "immediate_actions": [
+                "立即停止高处作业",
+                "撤离作业人员",
+                "设置警戒区域"
+            ],
+            "rectification_requirements": {
+                "responsible": "安全员",
+                "deadline": "立即",
+                "acceptance_criteria": [
+                    "防坠设施完善",
+                    "系挂点符合要求",
+                    "安全带检查合格",
+                    "作业人员培训到位"
+                ]
+            }
+        },
+        {
+            "id": "crane_operation",
+            "name": "吊装作业违规",
+            "description": "吊装作业必须确保设备完好、操作规范、管理到位",
+            "keywords": [
+                "吊装", "起重", "吊车", "塔吊", "吊钩"
+            ],
+            "conditions": [
+                {
+                    "type": "作业管理",
+                    "items": [
+                        "指挥人员",
+                        "信号传递",
+                        "警戒区域",
+                        "重量标识"
+                    ],
+                    "standards": [
+                        {
+                            "item": "人员配置",
+                            "criteria": "必须配备持证指挥人员和信号工，严禁无关人员进入吊装区域",
+                            "violation_cases": [
+                                "无指挥人员",
+                                "无信号工",
+                                "警戒不到位"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "设备状态",
+                    "items": [
+                        "吊具完好",
+                        "钢丝绳",
+                        "安全装置",
+                        "限位保护"
+                    ],
+                    "standards": [
+                        {
+                            "item": "设备检查",
+                            "criteria": "作业前必须检查设备状态，确保各项安全装置完好有效",
+                            "violation_cases": [
+                                "吊具破损",
+                                "钢丝绳磨损",
+                                "限位失效"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "risk_level": "high",
+            "violation_type": "吊装作业不规范",
+            "regulations": {
+                "name": "《建筑机械使用安全技术规程》",
+                "clause": "JGJ33-2012",
+                "content": "起重吊装作业必须由专业人员操作，并严格执行安全技术规程。"
+            },
+            "immediate_actions": [
+                "立即停止吊装作业",
+                "清理吊装区域",
+                "检查设备状态"
+            ],
+            "rectification_requirements": {
+                "responsible": "机械管理员",
+                "deadline": "立即",
+                "acceptance_criteria": [
+                    "人员配置到位",
+                    "设备检查合格",
+                    "安全措施完善",
+                    "管理制度执行"
+                ]
+            }
         }
-    ]
+    ],
+    "violation_levels": {
+        "high": {
+            "description": "可能导致人员死亡或重伤的违规",
+            "response_time": "立即",
+            "control_measures": [
+                "立即停止作业",
+                "撤离危险区域",
+                "上报项目部"
+            ]
+        },
+        "medium": {
+            "description": "可能导致人员轻伤的违规",
+            "response_time": "30分钟内",
+            "control_measures": [
+                "及时整改",
+                "加强监管",
+                "跟踪复查"
+            ]
+        },
+        "low": {
+            "description": "不符合规范但暂无直接安全风险的违规",
+            "response_time": "24小时内",
+            "control_measures": [
+                "限期整改",
+                "定期检查",
+                "预防管理"
+            ]
+        }
+    },
+    "prompt_principles": {
+        "position_description": {
+            "format": "方位+参照物+距离",
+            "examples": [
+                "距离基坑东南角5米处",
+                "主体结构西侧10米位置",
+                "塔吊基座北侧3米范围内"
+            ]
+        },
+        "evidence_requirements": {
+            "visual_confirmation": "必须能在图片中清晰识别违规情况",
+            "measurement_reference": "使用现场可见物体作为参照物进行估算",
+            "multiple_angles": "尽可能从多个角度确认违规事实"
+        },
+        "rectification_guidance": {
+            "immediate_actions": {
+                "format": "行动+责任人+时限",
+                "examples": [
+                    "立即停止违规作业，班组长负责，即时执行",
+                    "设置警戒区域，安全员负责，10分钟内完成"
+                ]
+            },
+            "long_term_solutions": {
+                "format": "方案+步骤+验收",
+                "examples": [
+                    "完善安全防护设施：1.采购合格设备 2.规范安装 3.验收确认",
+                    "加强人员教育：1.编制培训材料 2.组织培训 3.考核确认"
+                ]
+            }
+        }
+    }
 }

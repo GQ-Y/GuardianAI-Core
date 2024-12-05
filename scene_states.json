@@ -1,0 +1,387 @@
+{
+  "scenes": {
+    "123": {
+      "history": [
+        {
+          "excavator": {
+            "position": "基坑东北角边缘，距离基坑边缘约2米",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "绿色",
+              "posture": "正在进行挖掘作业"
+            },
+            "status": "working",
+            "movement": "与上一状态相比，挖掘机位置没有明显变化，仍在进行作业"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机正南偏东方向4米",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 4
+            },
+            {
+              "position": "挖掘机正南偏东方向6米",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 6
+            },
+            {
+              "position": "挖掘机正南偏西方向7米",
+              "helmet_color": "其他颜色（推测为管理人员）",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": 7
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "1. 部分人员未佩戴安全帽，存在头部受伤风险",
+              "2. 挖掘机4米范围内人员较多，存在机械伤害风险"
+            ]
+          },
+          "timestamp": "2024-12-02T14:50:54.551709"
+        },
+        {
+          "excavator": {
+            "position": "基坑东北角边缘，距离基坑边缘约3米",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "蓝绿色",
+              "posture": "正在挖掘"
+            },
+            "status": "working",
+            "movement": "与上一状态相比，位置略微向北移动约1米"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机正后方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 1
+            },
+            {
+              "position": "挖掘机右后方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_excavator": 2
+            },
+            {
+              "position": "挖掘机右侧",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "指挥",
+              "distance_to_excavator": 3
+            },
+            {
+              "position": "挖掘机左前方",
+              "helmet_color": "白色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": 5
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "挖掘机距离基坑边缘较近，存在边坡坍塌风险",
+              "部分人员未佩戴反光衣，夜间施工时存在安全隐患"
+            ]
+          },
+          "timestamp": "2024-12-02T14:51:26.286420"
+        },
+        {
+          "excavator": {
+            "position": "基坑东北角边缘，距离基坑边缘约3米",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "蓝色",
+              "posture": "静止，正在装载土方"
+            },
+            "status": "working",
+            "movement": "位置较上一状态（2024-12-02T14:51:26.286420）相比无明显变化，仍在基坑边缘附近作业"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机正前方4米范围内",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立，正在指挥挖掘机作业",
+              "distance_to_excavator": 4
+            },
+            {
+              "position": "挖掘机左侧10米范围内",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立，正在观察挖掘机作业",
+              "distance_to_excavator": 10
+            },
+            {
+              "position": "挖掘机右侧20米范围内",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动，正在搬运物品",
+              "distance_to_excavator": 20
+            },
+            {
+              "position": "挖掘机后方15米范围内",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立，正在与他人交谈",
+              "distance_to_excavator": 15
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "risk_level": "medium",
+            "issues": [
+              "挖掘机附近人员较多，存在安全风险"
+            ]
+          },
+          "timestamp": "2024-12-02T14:51:48.413986"
+        },
+        {
+          "excavator": {
+            "position": "基坑东北角边缘，距离基坑边缘约3米",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "绿色",
+              "posture": "正在挖掘"
+            },
+            "status": "working",
+            "movement": "与上一状态相比，挖掘机位置后退了约1米"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机前方约2米处",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立指挥",
+              "distance_to_excavator": 2
+            },
+            {
+              "position": "挖掘机左侧约3米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_excavator": 3
+            },
+            {
+              "position": "挖掘机右侧约4米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 4
+            },
+            {
+              "position": "挖掘机后方约5米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_excavator": 5
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "部分人员未佩戴安全帽",
+              "挖掘机周围人员较多，存在安全隐患"
+            ]
+          },
+          "timestamp": "2024-12-02T14:52:52.997742"
+        },
+        {
+          "excavator": {
+            "position": "基坑东北角边缘，距离基坑边缘约3米",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "绿色",
+              "posture": "正在作业"
+            },
+            "status": "working",
+            "movement": "位置和作业状态与前一状态相比没有明显变化"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机正前方4米",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 4
+            },
+            {
+              "position": "挖掘机西南方向6米",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_excavator": 6
+            },
+            {
+              "position": "基坑护栏边",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "指挥",
+              "distance_to_excavator": 10
+            },
+            {
+              "position": "挖掘机东南方向10米",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 10
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "有人员在挖掘机附近站立和走动，可能存在安全隐患"
+            ]
+          },
+          "timestamp": "2024-12-02T14:53:37.373638"
+        },
+        {
+          "excavator": {
+            "position": "基坑东北角边缘，距离基坑边缘约3米",
+            "features": {
+              "model": "型号不明",
+              "color": "蓝色",
+              "posture": "正在挖掘"
+            },
+            "status": "working",
+            "movement": "与上一状态相比，挖掘机位置未发生变化，仍在作业中"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机后方，基坑边缘附近",
+              "helmet_color": "红色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约3米"
+            },
+            {
+              "position": "挖掘机右侧4米范围内",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约4米"
+            },
+            {
+              "position": "挖掘机右侧4米范围内",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_excavator": "约5米"
+            },
+            {
+              "position": "挖掘机右侧，配电箱附近",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约6米"
+            },
+            {
+              "position": "配电箱旁边，挖掘机右侧",
+              "helmet_color": "白色",
+              "role": "manager",
+              "behavior": "指挥",
+              "distance_to_excavator": "约7米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "部分人员未按规定佩戴安全帽",
+              "部分人员距离挖掘机过近"
+            ]
+          },
+          "timestamp": "2024-12-02T14:54:07.782237"
+        },
+        {
+          "excavator": {
+            "position": "基坑东北角边缘，距离基坑边缘约3米",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "绿色",
+              "posture": "正在挖掘"
+            },
+            "status": "working",
+            "movement": "与上一状态相比，挖掘机位置未发生变化，仍在作业中"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机前方4米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 4
+            },
+            {
+              "position": "挖掘机右侧2米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_excavator": 2
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "risk_level": "high",
+            "issues": [
+              "现场缺少安全监护人员",
+              "部分工人未按要求佩戴安全帽"
+            ]
+          },
+          "timestamp": "2024-12-02T14:54:33.418240"
+        }
+      ],
+      "current": {
+        "excavator": {
+          "position": "基坑东北角边缘，距离基坑边缘约3米",
+          "features": {
+            "model": "中型挖掘机",
+            "color": "绿色",
+            "posture": "正在挖掘"
+          },
+          "status": "working",
+          "movement": "与上一状态相比位置无明显变化，持续在作业"
+        },
+        "personnel": [
+          {
+            "position": "挖掘机前方稍偏左",
+            "helmet_color": "黄色",
+            "role": "worker",
+            "behavior": "站立",
+            "distance_to_excavator": "3米"
+          },
+          {
+            "position": "挖掘机右侧",
+            "helmet_color": "黄色",
+            "role": "worker",
+            "behavior": "走动",
+            "distance_to_excavator": "4米"
+          }
+        ],
+        "safety_status": {
+          "has_supervisor": false,
+          "risk_level": "medium",
+          "issues": [
+            "1. 挖掘机工作区域附近有人员走动，存在被误伤的风险",
+            "2. 未发现现场有管理人员进行安全监督"
+          ]
+        },
+        "timestamp": "2024-12-02T14:54:51.195788"
+      }
+    }
+  },
+  "last_update": "2024-12-02T14:54:51.195797"
+}

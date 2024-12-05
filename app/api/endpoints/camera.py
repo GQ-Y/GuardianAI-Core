@@ -15,8 +15,12 @@ from ...schemas import (
 from ...services import camera_service, ai_service
 from ...config import settings
 from ...models import Camera, CameraScene
+from ...services.ai_service import AIService
 
 router = APIRouter()
+
+# 创建AIService实例
+ai_service = AIService()
 
 @router.get(
     "/",
@@ -54,8 +58,8 @@ async def get_cameras(
     summary="上传摄像头图片",
     description="上传摄像头拍摄的图片并进行AI分析，识别潜在安全隐患"
 )
-async def upload_camera_frame(
-    camera_id: str = Path(..., description="摄像头ID"),
+async def process_camera_frame(
+    camera_id: str,
     file: UploadFile = File(..., description="图片文件，支持jpg/png格式"),
     db: AsyncSession = Depends(get_db)
 ):
@@ -104,14 +108,10 @@ async def upload_camera_frame(
                 detail=f"未找到摄像头: {camera_id}"
             )
             
-        # 进行AI分析
-        analysis_result = await ai_service.analyze_image(
-            db,
-            camera,
-            file_path
-        )
+        # 调用AI服务分析图片
+        result = await ai_service.analyze_image(db, camera, file_path)
         
-        return analysis_result
+        return result
         
     except HTTPException:
         raise

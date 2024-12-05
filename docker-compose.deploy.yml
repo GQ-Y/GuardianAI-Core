@@ -1,7 +1,7 @@
 
 services:
   secure-web:
-    image: registry.cn-hangzhou.aliyuncs.com/hook-docker/secure-web:latest
+    image: registry.cn-hangzhou.aliyuncs.com/gq-docker/guardian_ai:latest
     ports:
       - "8000:8000"
     volumes:

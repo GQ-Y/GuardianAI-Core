@@ -24,11 +24,6 @@
               "path": "app/api/endpoints",
               "comment": "",
               "children": []
-            },
-            {
-              "path": "app/api/v1",
-              "comment": "",
-              "children": []
             }
           ]
         },

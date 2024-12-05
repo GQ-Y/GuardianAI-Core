@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from .endpoints import camera, site
+from .endpoints import camera, site, scene_analysis
 
 api_router = APIRouter()
 
@@ -15,4 +15,11 @@ api_router.include_router(
     site.router,
     prefix="/site",
     tags=["工程"]
+)
+
+# 注册新的场景分析路由
+api_router.include_router(
+    scene_analysis.router,
+    prefix="/scene",
+    tags=["scene-analysis"]
 ) 

@@ -1,0 +1,1574 @@
+{
+  "scenes": {
+    "123": {
+      "history": [
+        {
+          "excavator": {
+            "presence": true,
+            "position": "基坑东北角，距离基坑边缘约5米",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "绿色",
+              "posture": "静止"
+            },
+            "status": "idle",
+            "confidence": 0.85,
+            "movement": "挖掘机在画面中但状态不明确"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机正前方2米",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 2
+            },
+            {
+              "position": "挖掘机西南方向5米",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_excavator": 5
+            },
+            {
+              "position": "挖掘机南偏西方向4米",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "指挥",
+              "distance_to_excavator": 4
+            },
+            {
+              "position": "挖掘机东侧10米",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": 10
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "基坑边缘有人员站立，存在滑落风险",
+              "部分工人未佩戴反光背心，夜间作业或有安全隐患"
+            ]
+          },
+          "timestamp": "2024-12-02T15:00:47.288974"
+        },
+        {
+          "excavator": {
+            "presence": true,
+            "position": "基坑东北角，距离基坑边缘约5米",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "黄色",
+              "posture": "正在挖掘"
+            },
+            "status": "working",
+            "confidence": 0.92,
+            "movement": "挖掘机正在进行作业"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机西南方向4米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 4
+            },
+            {
+              "position": "挖掘机南方3米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_excavator": 3
+            },
+            {
+              "position": "挖掘机正南方向5米处",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "指挥",
+              "distance_to_excavator": 5
+            },
+            {
+              "position": "挖掘机西南方向6米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": 6
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "部分人员未佩戴安全帽",
+              "部分人员距离挖掘机过近"
+            ]
+          },
+          "timestamp": "2024-12-02T15:01:14.165307"
+        },
+        {
+          "excavator": {
+            "presence": false,
+            "position": null,
+            "features": null,
+            "status": "absent",
+            "confidence": 0.95,
+            "movement": "挖掘机已离开画面"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机南侧，基坑边缘附近",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约15米"
+            },
+            {
+              "position": "挖掘机东侧，基坑边缘附近",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约20米"
+            },
+            {
+              "position": "挖掘机西南侧，基坑边缘附近",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约25米"
+            },
+            {
+              "position": "挖掘机东南侧，基坑边缘附近",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约20米"
+            },
+            {
+              "position": "挖掘机正前方，基坑边缘附近",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": "约10米"
+            },
+            {
+              "position": "挖掘机西南侧，基坑边缘附近",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": "约25米"
+            },
+            {
+              "position": "挖掘机东侧，基坑边缘附近",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": "约20米"
+            },
+            {
+              "position": "挖掘机东南侧，基坑边缘附近",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": "约20米"
+            },
+            {
+              "position": "挖掘机正前方，基坑边缘附近",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约10米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "high",
+            "issues": [
+              "人员过多，存在安全隐患",
+              "部分人员未佩戴安全帽",
+              "人员距离挖掘机过近"
+            ]
+          },
+          "timestamp": "2024-12-02T15:02:15.659785"
+        }
+      ],
+      "current": {
+        "excavator": {
+          "presence": true,
+          "position": "基坑东北角，距离基坑边缘约3米",
+          "features": {
+            "model": "小型挖掘机",
+            "color": "绿色",
+            "posture": "正在挖掘作业中"
+          },
+          "status": "working",
+          "confidence": 0.92,
+          "movement": "与上一状态相比，挖掘机位置未发生变化，仍在基坑东北角作业"
+        },
+        "personnel": [
+          {
+            "position": "挖掘机前方，面向挖掘机",
+            "helmet_color": "黄色",
+            "role": "worker",
+            "behavior": "站立指挥",
+            "distance_to_excavator": "2米"
+          },
+          {
+            "position": "挖掘机左侧",
+            "helmet_color": "黄色",
+            "role": "worker",
+            "behavior": "走动",
+            "distance_to_excavator": "4米"
+          },
+          {
+            "position": "挖掘机与基坑边缘之间",
+            "helmet_color": "黄色",
+            "role": "worker",
+            "behavior": "站立",
+            "distance_to_excavator": "3米"
+          }
+        ],
+        "safety_status": {
+          "has_supervisor": false,
+          "risk_level": "high",
+          "issues": [
+            "1. 挖掘机4米范围内有3名工人，违反了安全规定",
+            "2. 现场未看到安全监督人员进行管理"
+          ]
+        },
+        "timestamp": "2024-12-02T15:02:46.327564"
+      }
+    },
+    "001": {
+      "history": [
+        {
+          "excavator": {
+            "presence": true,
+            "position": "基坑东北角",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "绿色",
+              "posture": "铲斗正在挖掘"
+            },
+            "status": "working",
+            "confidence": 0.98,
+            "movement": "与上一状态相比，挖掘机正在更靠近基坑边缘进行挖掘"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机前方约5米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约5米"
+            },
+            {
+              "position": "挖掘机前方3米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_excavator": "约3米"
+            },
+            {
+              "position": "挖掘机驾驶室附近",
+              "helmet_color": "白色",
+              "role": "manager",
+              "behavior": "指挥",
+              "distance_to_excavator": "约1米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "有人员在挖掘机危险区域内活动"
+            ]
+          },
+          "timestamp": "2024-12-02T15:11:39.155424"
+        },
+        {
+          "excavator": {
+            "presence": true,
+            "position": "基坑东北角",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "蓝绿色",
+              "posture": "正在进行挖掘工作"
+            },
+            "status": "working",
+            "confidence": 0.95,
+            "movement": "与上一状态相比，挖掘机仍在进行挖掘作业，没有明显变化。"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机右侧，靠近配电箱",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "大约10米"
+            },
+            {
+              "position": "挖掘机前方，靠近基坑边缘",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "大约5米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "risk_level": "medium",
+            "issues": [
+              "人员在挖掘机作业范围内，可能存在安全风险。",
+              "靠近基坑边缘的人员，需注意防止滑落。"
+            ]
+          },
+          "timestamp": "2024-12-02T15:12:15.749367"
+        },
+        {
+          "excavator": {
+            "presence": true,
+            "position": "基坑东北角",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "绿色",
+              "posture": "正在进行挖掘作业"
+            },
+            "status": "working",
+            "confidence": 0.98,
+            "movement": "与上一状态相比没有明显变化，仍在作业"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机前方2米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "2米"
+            },
+            {
+              "position": "挖掘机东南方向3米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "3米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "risk_level": "high",
+            "issues": [
+              "挖掘机4米范围内有人员站立，存在安全风险",
+              "现场未见管理人员指挥作业"
+            ]
+          },
+          "timestamp": "2024-12-02T15:12:50.948907"
+        }
+      ],
+      "current": {
+        "excavator": {
+          "presence": true,
+          "position": "基坑东北角",
+          "features": {
+            "model": "暂无法确定",
+            "color": "绿色",
+            "posture": "正在装载"
+          },
+          "status": "working",
+          "confidence": 0.95,
+          "movement": "与上一状态相比，挖掘机继续保持工作状态"
+        },
+        "personnel": [
+          {
+            "position": "挖掘机左侧",
+            "helmet_color": "黄色",
+            "role": "worker",
+            "behavior": "站立",
+            "distance_to_excavator": "4米范围内"
+          },
+          {
+            "position": "挖掘机西南方向",
+            "helmet_color": "黄色",
+            "role": "worker",
+            "behavior": "走动",
+            "distance_to_excavator": "4米范围内"
+          }
+        ],
+        "safety_status": {
+          "has_supervisor": true,
+          "risk_level": "medium",
+          "issues": [
+            "人员过于接近挖掘机，存在安全风险"
+          ]
+        },
+        "timestamp": "2024-12-02T15:13:08.481170"
+      }
+    },
+    "002": {
+      "history": [
+        {
+          "excavator": {
+            "presence": false,
+            "position": null,
+            "features": null,
+            "status": "absent",
+            "confidence": 1.0,
+            "movement": null
+          },
+          "personnel": [
+            {
+              "position": "north of the image",
+              "helmet_color": "yellow",
+              "role": "worker",
+              "behavior": "standing",
+              "distance_to_excavator": "none"
+            },
+            {
+              "position": "north of the image",
+              "helmet_color": "yellow",
+              "role": "worker",
+              "behavior": "standing",
+              "distance_to_excavator": "none"
+            },
+            {
+              "position": "north of the image",
+              "helmet_color": "yellow",
+              "role": "worker",
+              "behavior": "walking",
+              "distance_to_excavator": "none"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "risk_level": "low",
+            "issues": [
+              "缺乏现场管理人员"
+            ]
+          },
+          "timestamp": "2024-12-03T11:17:20.030083"
+        },
+        {
+          "excavator": {
+            "presence": false,
+            "position": null,
+            "features": null,
+            "status": "absent",
+            "confidence": 1.0,
+            "movement": "无变化"
+          },
+          "personnel": [
+            {
+              "position": "图片中部偏右",
+              "helmet_color": "橙色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "无挖掘机"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "risk_level": "low",
+            "issues": []
+          },
+          "timestamp": "2024-12-03T11:17:50.441591"
+        },
+        {
+          "excavator": {
+            "presence": true,
+            "position": "基坑东北角",
+            "features": {
+              "model": "Caterpillar",
+              "color": "黄色",
+              "posture": "正在工作，铲斗明显运动"
+            },
+            "status": "working",
+            "confidence": 0.99,
+            "movement": "与上一状态相比，挖掘机继续在基坑东北角工作"
+          },
+          "personnel": [
+            {
+              "position": "挖掘机前方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "4米范围内"
+            },
+            {
+              "position": "挖掘机右侧",
+              "helmet_color": "蓝色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": "4米范围内"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "人员站在挖掘机4米范围内，需注意避让"
+            ]
+          },
+          "timestamp": "2024-12-03T11:18:27.715400"
+        },
+        {
+          "excavator": {
+            "presence": true,
+            "position": "基坑东北角",
+            "features": {
+              "model": "大型挖掘机",
+              "color": "黄色",
+              "posture": "铲斗朝上，似乎在装载或准备装载"
+            },
+            "status": "working",
+            "confidence": 0.95,
+            "movement": "与上一状态相比，挖掘机位置和工作状态无明显变化"
+          },
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "中型吊车",
+              "color": "黄色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "挖掘机西南侧",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "约5米",
+              "distance_to_crane": "约30米"
+            },
+            {
+              "position": "场地中央偏北",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": "约20米",
+              "distance_to_crane": "约15米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "low",
+            "issues": []
+          },
+          "timestamp": "2024-12-03T13:11:49.277543"
+        },
+        {
+          "excavator": {
+            "presence": true,
+            "position": "基坑东北角",
+            "features": {
+              "model": "中型挖掘机",
+              "color": "黄色",
+              "posture": "铲斗抬起，正在进行装载"
+            },
+            "status": "working",
+            "confidence": 0.95,
+            "movement": "与上一个状态相比，位置和状态没有变化"
+          },
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "中型吊车",
+              "color": "白色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "挖掘机前方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "3米",
+              "distance_to_crane": "20米"
+            },
+            {
+              "position": "吊车下方",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "指挥",
+              "distance_to_excavator": "20米",
+              "distance_to_crane": "5米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "挖掘机附近有人员站立，需注意安全距离"
+            ]
+          },
+          "timestamp": "2024-12-03T13:12:46.927194"
+        },
+        {
+          "excavator": {
+            "presence": true,
+            "position": "基坑东北角",
+            "features": {
+              "model": "小型挖掘机",
+              "color": "黄色",
+              "posture": "铲斗抬起，准备装载"
+            },
+            "status": "working",
+            "confidence": 0.95,
+            "movement": "与上一状态相比无明显变化"
+          },
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "中大型吊车",
+              "color": "白色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "挖掘机前方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "大约3米",
+              "distance_to_crane": "大约15米"
+            },
+            {
+              "position": "吊车下方",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_excavator": "大约10米",
+              "distance_to_crane": "大约5米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "挖掘机附近有人员站立，存在安全风险"
+            ]
+          },
+          "timestamp": "2024-12-03T13:13:47.111566"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "不能确定具体型号",
+              "color": "白色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "吊车下方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "2米",
+              "distance_to_excavator": "未知"
+            },
+            {
+              "position": "吊车右前方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_crane": "4米",
+              "distance_to_excavator": "未知"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "has_crane_supervisor": false,
+            "risk_level": "high",
+            "issues": [
+              "无人旁站"
+            ]
+          },
+          "timestamp": "2024-12-03T13:17:10.292225"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "未知型号",
+              "color": "白色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.98,
+            "movement": "无变化"
+          },
+          "personnel": [
+            {
+              "position": "吊车前方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "约3米"
+            },
+            {
+              "position": "吊车4米范围内",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "约4米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "has_crane_supervisor": false,
+            "risk_level": "high",
+            "issues": [
+              "无人旁站"
+            ]
+          },
+          "timestamp": "2024-12-03T13:18:03.900977"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "未知型号",
+              "color": "黄色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "靠近吊车",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_crane": "2米以内",
+              "distance_to_excavator": "未知"
+            },
+            {
+              "position": "靠近吊车",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "2米以内",
+              "distance_to_excavator": "未知"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "low",
+            "issues": []
+          },
+          "timestamp": "2024-12-03T13:20:02.943214"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "不确定",
+              "color": "黄色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "吊车旁边",
+              "helmet_color": "白色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_crane": "近距离",
+              "distance_to_excavator": "不适用"
+            },
+            {
+              "position": "吊车旁边",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "近距离",
+              "distance_to_excavator": "不适用"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "low",
+            "issues": []
+          },
+          "timestamp": "2024-12-03T13:20:32.554183"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "未知型号",
+              "color": "黄色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "吊车旁",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_crane": "约2米"
+            },
+            {
+              "position": "吊车旁",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "约4米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "low",
+            "issues": []
+          },
+          "timestamp": "2024-12-03T13:21:08.581659"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "中型吊车",
+              "color": "黄色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "吊车下方",
+              "helmet_color": "白色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_crane": "1米",
+              "distance_to_excavator": "未知"
+            },
+            {
+              "position": "吊车附近",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "4米",
+              "distance_to_excavator": "未知"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "部分人员未佩戴安全帽",
+              "人员站立位置较近"
+            ]
+          },
+          "timestamp": "2024-12-03T13:24:01.077486"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "未知型号",
+              "color": "黄色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "吊车前方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "未知",
+              "distance_to_crane": "2米"
+            },
+            {
+              "position": "吊车附近",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_excavator": "未知",
+              "distance_to_crane": "3米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "has_crane_supervisor": false,
+            "risk_level": "high",
+            "issues": [
+              "无人旁站"
+            ]
+          },
+          "timestamp": "2024-12-03T13:30:22.508938"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "未知型号",
+              "color": "黄色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "吊车前方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "1米",
+              "distance_to_excavator": "未知"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "has_crane_supervisor": false,
+            "risk_level": "high",
+            "issues": [
+              "无人旁站"
+            ]
+          },
+          "timestamp": "2024-12-03T13:31:29.916836"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地东侧",
+            "features": {
+              "model": "中联重科",
+              "color": "黄色",
+              "boom_state": "展开"
+            },
+            "status": "working",
+            "confidence": 0.95
+          },
+          "personnel": [
+            {
+              "position": "吊车正下方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "约1米",
+              "distance_to_excavator": "未知"
+            },
+            {
+              "position": "吊车左侧",
+              "helmet_color": "白色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_crane": "约3米",
+              "distance_to_excavator": "未知"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "施工人员应在指定安全区域活动"
+            ]
+          },
+          "timestamp": "2024-12-03T13:34:19.918151"
+        }
+      ],
+      "current": {
+        "crane": {
+          "presence": true,
+          "position": "场地东侧",
+          "features": {
+            "model": "红色吊车",
+            "color": "红色",
+            "boom_state": "展开"
+          },
+          "status": "working",
+          "confidence": 0.99
+        },
+        "personnel": [
+          {
+            "position": "吊车正下方",
+            "helmet_color": "黄色",
+            "role": "worker",
+            "behavior": "站立",
+            "distance_to_excavator": "未知",
+            "distance_to_crane": "0米"
+          }
+        ],
+        "safety_status": {
+          "has_supervisor": false,
+          "has_crane_supervisor": false,
+          "risk_level": "high",
+          "issues": [
+            "无人旁站"
+          ]
+        },
+        "timestamp": "2024-12-03T13:35:43.052374"
+      }
+    },
+    "003": {
+      "history": [],
+      "current": {
+        "crane": {
+          "presence": true,
+          "position": "处于图片中央，场地中央位置",
+          "features": {
+            "model": "塔吊（20T）",
+            "color": "红色",
+            "boom_state": "收起"
+          },
+          "status": "idle",
+          "confidence": 0.95
+        },
+        "personnel": [
+          {
+            "position": "右下角",
+            "helmet_color": "无安全帽",
+            "role": "未知",
+            "behavior": "站立",
+            "distance_to_excavator": "1米",
+            "distance_to_crane": "10米"
+          }
+        ],
+        "safety_status": {
+          "has_supervisor": false,
+          "has_crane_supervisor": false,
+          "risk_level": "high",
+          "issues": [
+            "无管理人员在场",
+            "塔吊作业区域附近有人未戴安全帽"
+          ]
+        },
+        "timestamp": "2024-12-03T13:37:44.518597"
+      }
+    },
+    "004": {
+      "history": [
+        {
+          "crane": {
+            "presence": false,
+            "confidence": 1.0
+          },
+          "personnel": [
+            {
+              "position": "near the machine box",
+              "helmet_color": "red",
+              "role": "manager",
+              "behavior": "standing",
+              "distance_to_excavator": "approximately 10 meters",
+              "distance_to_crane": "n/a"
+            },
+            {
+              "position": "near the machine box",
+              "helmet_color": "yellow",
+              "role": "worker",
+              "behavior": "standing",
+              "distance_to_excavator": "approximately 10 meters",
+              "distance_to_crane": "n/a"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": false,
+            "risk_level": "low",
+            "issues": [
+              "No crane in operation"
+            ]
+          },
+          "timestamp": "2024-12-03T13:38:47.173854"
+        }
+      ],
+      "current": {
+        "crane": {
+          "presence": false,
+          "position": null,
+          "features": null,
+          "status": "absent",
+          "confidence": 0.95,
+          "movement": {
+            "position_changed": false,
+            "movement_description": "",
+            "boom_changed": false,
+            "boom_change_description": ""
+          }
+        },
+        "personnel": [
+          {
+            "position": "near the temporary fencing on the left side of the image",
+            "helmet_color": "red",
+            "role": "manager",
+            "behavior": "standing",
+            "distance_to_crane": "out of range"
+          },
+          {
+            "position": "near the temporary fencing on the left side of the image",
+            "helmet_color": "yellow",
+            "role": "worker",
+            "behavior": "standing",
+            "distance_to_crane": "out of range"
+          },
+          {
+            "position": "near the temporary fencing on the left side of the image",
+            "helmet_color": "yellow",
+            "role": "worker",
+            "behavior": "standing",
+            "distance_to_crane": "out of range"
+          },
+          {
+            "position": "middle of the image working near the earthmoving equipment",
+            "helmet_color": "yellow",
+            "role": "worker",
+            "behavior": "working",
+            "distance_to_crane": "out of range"
+          }
+        ],
+        "safety_status": {
+          "has_supervisor": true,
+          "has_crane_supervisor": false,
+          "risk_level": "low",
+          "issues": []
+        },
+        "state_analysis": {
+          "continuous_operation": false,
+          "operation_description": "No crane operation observed",
+          "personnel_changes": "No notable changes compared to the previous record"
+        },
+        "timestamp": "2024-12-03T13:42:19.665622"
+      }
+    },
+    "005": {
+      "history": [
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地右前方，靠近红色护栏和蓝色围栏附近",
+            "features": {
+              "model": "中大型吊车",
+              "color": "黄色",
+              "boom_state": "展开",
+              "boom_direction": "起重臂向前上方伸展"
+            },
+            "status": "working",
+            "confidence": 0.95,
+            "movement": {
+              "position_changed": false,
+              "movement_description": "位置未发生显著变化",
+              "boom_changed": false,
+              "boom_change_description": "起重臂方向和角度未发生变化"
+            }
+          },
+          "personnel": [
+            {
+              "position": "吊车前方",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_crane": "约3米"
+            },
+            {
+              "position": "吊车右侧",
+              "helmet_color": "白色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_crane": "约3米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "low",
+            "issues": []
+          },
+          "state_analysis": {
+            "continuous_operation": true,
+            "operation_description": "吊车处于持续作业状态，起重臂方向和位置未发生显著变化，管理人员在旁监督",
+            "personnel_changes": "人员数量和位置未发生变化"
+          },
+          "timestamp": "2024-12-03T13:45:02.570204"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地中央，靠近红色围栏和蓝色围栏的交界处，靠近一辆黄色的小型机械车辆",
+            "features": {
+              "model": "中大型吊车",
+              "color": "白色",
+              "boom_state": "展开",
+              "boom_direction": "起重臂向上延伸到图片上方"
+            },
+            "status": "working",
+            "confidence": 0.99,
+            "movement": {
+              "position_changed": true,
+              "movement_description": "吊车从场地右前方移动到了场地中央",
+              "boom_changed": true,
+              "boom_change_description": "起重臂从水平方向改变为向上方向"
+            }
+          },
+          "personnel": [
+            {
+              "position": "吊车前方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "走动",
+              "distance_to_crane": "小于4米"
+            },
+            {
+              "position": "吊车旁边",
+              "helmet_color": "白色",
+              "role": "manager",
+              "behavior": "指挥",
+              "distance_to_crane": "小于4米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "施工人员在吊车作业半径内走动"
+            ]
+          },
+          "state_analysis": {
+            "continuous_operation": true,
+            "operation_description": "吊车从场地右前方移动到中央，起重臂从水平方向改变为向上方向，属于同一作业过程",
+            "personnel_changes": "人员数量从2人增加到3人，增加了一名黄色安全帽的工人"
+          },
+          "timestamp": "2024-12-03T13:45:59.088694"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地中央，靠近红色围栏和蓝色围栏交界处，靠近一辆黄色小型机械车辆",
+            "features": {
+              "model": "未知型号",
+              "color": "白色",
+              "boom_state": "展开",
+              "boom_direction": "倾斜",
+              "boom_angle": 45
+            },
+            "status": "working",
+            "confidence": 0.95,
+            "movement": {
+              "position_changed": false,
+              "movement_description": "位置未发生明显变化",
+              "boom_changed": false,
+              "boom_change_description": "起重臂状态和方向未发生明显变化"
+            }
+          },
+          "personnel": [
+            {
+              "position": "吊车4米范围内，靠近吊车操作位置",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "约2米"
+            },
+            {
+              "position": "吊车4米范围内，靠近吊车操作位置",
+              "helmet_color": "红色",
+              "role": "manager",
+              "behavior": "站立",
+              "distance_to_crane": "约2米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "medium",
+            "issues": [
+              "存在人员安全距离不足的问题"
+            ]
+          },
+          "state_analysis": {
+            "continuous_operation": true,
+            "operation_description": "吊车位置和起重臂状态与历史记录一致，判断为同一作业过程",
+            "personnel_changes": "人员数量和位置与历史记录一致"
+          },
+          "timestamp": "2024-12-03T13:48:17.436905"
+        }
+      ],
+      "current": {
+        "crane": {
+          "presence": true,
+          "position": "场地中央，靠近红色护栏和蓝色围栏交界处，靠近一辆黄色的小型机械车辆",
+          "features": {
+            "model": "中联重科",
+            "color": "黄色",
+            "boom_state": "展开",
+            "boom_direction": "倾斜",
+            "boom_angle": 45
+          },
+          "status": "working",
+          "confidence": 0.98,
+          "movement": {
+            "position_changed": false,
+            "movement_description": "吊车位置没有明显变化",
+            "boom_changed": false,
+            "boom_change_description": "起重臂状态和方向没有明显变化"
+          }
+        },
+        "personnel": [
+          {
+            "position": "吊车右侧",
+            "helmet_color": "红色",
+            "role": "manager",
+            "behavior": "站立",
+            "distance_to_crane": "约3米"
+          },
+          {
+            "position": "吊车正前方",
+            "helmet_color": "白色",
+            "role": "manager",
+            "behavior": "站立",
+            "distance_to_crane": "约2米"
+          }
+        ],
+        "safety_status": {
+          "has_supervisor": true,
+          "has_crane_supervisor": true,
+          "risk_level": "low",
+          "issues": []
+        },
+        "state_analysis": {
+          "continuous_operation": true,
+          "operation_description": "吊车持续作业，位置和起重臂状态没有明显变化。",
+          "personnel_changes": "人员数量和位置没有明显变化。"
+        },
+        "timestamp": "2024-12-03T13:48:46.307591"
+      }
+    },
+    "006": {
+      "history": [
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地右侧，靠近围栏和基坑区域",
+            "features": {
+              "model": "中联重科",
+              "color": "黄色",
+              "boom_state": "收起",
+              "boom_direction": "水平",
+              "boom_angle": "0度"
+            },
+            "status": "idle",
+            "confidence": 0.98,
+            "movement": {
+              "position_changed": false,
+              "movement_description": "吊车位置没有明显变化",
+              "boom_changed": false,
+              "boom_change_description": "起重臂状态和方向没有明显变化"
+            }
+          },
+          "personnel": [],
+          "safety_status": {
+            "has_supervisor": false,
+            "has_crane_supervisor": false,
+            "risk_level": "medium",
+            "issues": [
+              "无人旁站"
+            ]
+          },
+          "state_analysis": {
+            "continuous_operation": false,
+            "operation_description": "吊车处于闲置状态，没有持续作业迹象",
+            "personnel_changes": "无人员变化"
+          },
+          "timestamp": "2024-12-03T13:49:10.888845"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地右侧，靠近围栏和基坑区域",
+            "features": {
+              "model": "塔吊",
+              "color": "白色与黑色相间",
+              "boom_state": "展开",
+              "boom_direction": "倾斜",
+              "boom_angle": "大约30度"
+            },
+            "status": "working",
+            "confidence": 0.95,
+            "movement": {
+              "position_changed": false,
+              "movement_description": "位置未发生变化",
+              "boom_changed": false,
+              "boom_change_description": "起重臂状态和方向未发生变化"
+            }
+          },
+          "personnel": [
+            {
+              "position": "吊车下方",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "约3米"
+            },
+            {
+              "position": "吊车左侧",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "约4米"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": false,
+            "has_crane_supervisor": false,
+            "risk_level": "high",
+            "issues": [
+              "无管理人员旁站"
+            ]
+          },
+          "state_analysis": {
+            "continuous_operation": true,
+            "operation_description": "吊车处于同一作业过程",
+            "personnel_changes": "人员数量未发生变化"
+          },
+          "timestamp": "2024-12-03T13:49:40.655129"
+        },
+        {
+          "crane": {
+            "presence": true,
+            "position": "场地右侧，靠近围栏和基坑区域",
+            "features": {
+              "model": "未知型号",
+              "color": "白色",
+              "boom_state": "展开",
+              "boom_direction": "倾斜",
+              "boom_angle": "约45度（相对于地面）"
+            },
+            "status": "working",
+            "confidence": 0.95,
+            "movement": {
+              "position_changed": false,
+              "movement_description": "吊车位置未发生显著变化",
+              "boom_changed": false,
+              "boom_change_description": "起重臂状态和方向未发生显著变化"
+            }
+          },
+          "personnel": [
+            {
+              "position": "吊车前方约5米处",
+              "helmet_color": "黄色",
+              "role": "worker",
+              "behavior": "站立",
+              "distance_to_crane": "约5米"
+            },
+            {
+              "position": "吊车附近，具体位置不确定",
+              "helmet_color": "白色",
+              "role": "manager",
+              "behavior": "未知",
+              "distance_to_crane": "未知"
+            }
+          ],
+          "safety_status": {
+            "has_supervisor": true,
+            "has_crane_supervisor": true,
+            "risk_level": "low",
+            "issues": [
+              "人员在吊车工作区域附近，需注意安全"
+            ]
+          },
+          "state_analysis": {
+            "continuous_operation": true,
+            "operation_description": "吊车仍在持续作业，起重臂位置和方向未发生显著变化",
+            "personnel_changes": "人员数量与上一状态相比无显著变化"
+          },
+          "timestamp": "2024-12-03T13:52:14.800748"
+        }
+      ],
+      "current": {
+        "crane": {
+          "presence": true,
+          "position": "场地左侧，靠近围栏和基坑区域",
+          "features": {
+            "model": "大型履带式吊车",
+            "color": "黄色",
+            "boom_state": "展开",
+            "boom_direction": "倾斜",
+            "boom_angle": 45
+          },
+          "status": "working",
+          "confidence": 0.95,
+          "movement": {
+            "position_changed": false,
+            "movement_description": "位置未发生变化",
+            "boom_changed": false,
+            "boom_change_description": "起重臂状态和方向未发生变化"
+          }
+        },
+        "personnel": [
+          {
+            "position": "吊车前方",
+            "helmet_color": "白色",
+            "role": "manager",
+            "behavior": "站立",
+            "distance_to_crane": "3米"
+          },
+          {
+            "position": "吊车左侧，靠近基坑区域",
+            "helmet_color": "红色",
+            "role": "manager",
+            "behavior": "走动",
+            "distance_to_crane": "5米"
+          }
+        ],
+        "safety_status": {
+          "has_supervisor": true,
+          "has_crane_supervisor": true,
+          "risk_level": "medium",
+          "issues": [
+            "人员靠近基坑区域，存在安全隐患"
+          ]
+        },
+        "state_analysis": {
+          "continuous_operation": true,
+          "operation_description": "吊车持续作业，起重臂角度和方向未发生明显变化",
+          "personnel_changes": "人员数量和位置未发生明显变化"
+        },
+        "timestamp": "2024-12-03T13:53:10.601496"
+      }
+    }
+  },
+  "last_update": "2024-12-03T13:53:10.601502"
+}

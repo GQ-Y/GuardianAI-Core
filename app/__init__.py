@@ -2,9 +2,36 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import os
+import logging
+from logging.config import dictConfig
 
 from .config import settings
 from .api.routes import api_router
+
+# 配置日志
+logging_config = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "default": {
+            "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        }
+    },
+    "handlers": {
+        "file": {
+            "class": "logging.FileHandler",
+            "filename": "logs/app.log",
+            "formatter": "default",
+            "level": "INFO"
+        }
+    },
+    "root": {
+        "level": "INFO",
+        "handlers": ["file"]
+    }
+}
+
+dictConfig(logging_config)
 
 def create_app() -> FastAPI:
     """创建FastAPI应用"""
